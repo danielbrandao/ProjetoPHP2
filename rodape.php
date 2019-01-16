@@ -1,4 +1,4 @@
 <footer>
     <hr>
-    <center>2017 &copy; MeuSite.com - Direitos Reservados </center>
+    <center>2014-<?=date("Y");?> &copy; MeuSite.com - Direitos Reservados </center>
 </footer>

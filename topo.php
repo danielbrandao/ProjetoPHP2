@@ -1,3 +1,3 @@
 <header>
-    <center><img src="logo.png.png"/></center>
+    <center><img src="logo.png"/></center>
 </header>
