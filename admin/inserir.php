@@ -1,20 +1,10 @@
-<form action="?pg=admin/inserirdb" method="post">
-<table>
-    <tr>
-        <td>Titulo: </td>
-        <td><input name="titulo" type="text"/></td>
-    </tr>
-    <tr> 
-        <td>SubTitulo: </td>
-        <td><input name="subtitulo" type="text"/></td>
-    </tr>
-    <tr>
-        <td>Texto: </td>
-        <td><textarea name="texto" id="texto"></textarea></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td><button name="Enviar">Cadastrar</button></td>
-    </tr>
-</table>
+<form id="contactForm" action="?pg=inserirdb" method="post">
+    <label>Titulo: </label>
+        <input class="form-control" name="titulo" type="text"/>
+    <label>SubTitulo: </label>
+        <input class="form-control" name="subtitulo" type="text"/>
+    <label>Texto: </label>
+       <textarea class="form-control" name="texto" id="texto"></textarea>
+    <hr>
+    <button class="btn btn-primary" name="Enviar">Cadastrar</button>
 </form>

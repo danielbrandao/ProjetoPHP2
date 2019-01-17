@@ -3,7 +3,7 @@ include "config.inc.php";
 
 ?>
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 
 <head>
 
@@ -16,13 +16,13 @@ include "config.inc.php";
     <title>MeuSite.com - Admin</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="../bootstrap/css/modern-business.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../bootstrap/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,7 +36,7 @@ include "config.inc.php";
 <body>
 
     <!-- Navigation -->
-    <?php include "header.phtml"; ?>
+    <?php //include "header.phtml"; ?>
 
     <!-- Page Content -->
     <div class="container">
@@ -46,10 +46,10 @@ include "config.inc.php";
             <div class="col-lg-12">
                 <h1 class="page-header">Painel Admin </h1>
                 <ol class="breadcrumb">
-                    <li><a href="admin.php">Home</a>
+                    <li><a href="index.php">Home</a>
                     </li>
-                    <li class="active"><a href="?pg=admin/listar">Listar</a></li>
-                    <li class="active"><a href="?pg=admin/inserir">Inserir Novo</a></li>
+                    <li class="active"><a href="?pg=listar">Listar</a></li>
+                    <li class="active"><a href="?pg=inserir">Inserir Novo</a></li>
                 </ol>
             </div>
         </div>
@@ -58,7 +58,7 @@ include "config.inc.php";
         <!-- Content Row -->
         <?php
         // Declarando as variáveis de acesso as páginas
-        $var = "admin/home.php";
+        $var = "home.php";
         // o @ suprime avisos de erro do PHP.
         @$pg = $_GET['pg'];
     
@@ -77,16 +77,16 @@ include "config.inc.php";
         <hr>
 
         <!-- Footer -->
-        <?php include "footer.php"; ?>
+        <?php include "../rodape.php"; ?>
 
     </div>
     <!-- /.container -->
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="../bootstrap/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 

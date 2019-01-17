@@ -30,12 +30,11 @@ $todos = mysqli_query($conexao, $busca);
     <tr>
         <td><?=$dados['id'];?></td>
         <td><?=$dados['titulo'];?></td>
-        <td><a href="?pg=admin/alterar&id=<?=$dados['id']; ?>">!!</a></td>
-        <td><a href="javascript:confirmaExclusao('?pg=admin/excluirdb&id=<?=$dados['id']; ?>')" class="ask">
-XX</a></td>
+        <td><a href="?pg=alterar&id=<?=$dados['id']; ?>"><i class="glyphicon glyphicon-pencil"></i></a></td>
+        <td><a href="javascript:confirmaExclusao('?pg=excluir&id=<?=$dados['id']; ?>')" class="ask">
+            <i class="glyphicon glyphicon-remove" ></i></a></td>
     </tr>
     
     <?php } ?>
-
 
 </table>

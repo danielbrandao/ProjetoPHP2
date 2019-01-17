@@ -1,7 +1,7 @@
 <?php
 
 $host = "localhost";
-$bd = "meusite1";
+$bd = "admin";
 $user = "root";
 $pass = "";
 

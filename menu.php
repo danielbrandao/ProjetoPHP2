@@ -7,7 +7,7 @@
         <li><a class="navbar-brand" href="?pg=projetos">Projetos</a></li>
         <li><a class="navbar-brand" href="?pg=faleconosco">Fale Conosco</a></li>
         <li>&nbsp;</li>
-        <li><a class="navbar-brand" href="/admin">.adm.</a></li>
+        <li><a class="navbar-brand" href="admin">.adm.</a></li>
       </ul>
     </div>
   </div>
